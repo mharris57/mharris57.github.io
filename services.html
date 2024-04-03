@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<!-- Michael Harris, Southern Illinois University, 02/24/2024, 02/24/2024 -->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Michael's Bicycles Services</title> <!-- Title for the webpage -->
+    <link rel="stylesheet" href="Style/main.css"> <!-- Link to the main CSS file -->
+    <link rel="stylesheet" href="Style/slicknav.css"> <!-- Link to the slicknav CSS file -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> <!-- Include jQuery library -->
+    <script src="JS/javascriptmin.js"></script> <!-- Include custom JavaScript file -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); // Initialize slicknav menu
+        });
+    </script>
+    <meta name="description" content="Michael's Bicycles Services"> <!-- Meta description for SEO -->
+    <meta name="keywords" content="michael, services, bicycle"> <!-- Meta keywords for SEO -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive viewport settings -->
+</head>
+<body>
+    <header>
+        <!-- Header content -->
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav id="mobile_menu"></nav> <!-- Mobile navigation menu -->
+    <nav id="nav_menu"> 
+        <ul>
+            <li><a href="index.html">Home</a></li> <!-- Link to the home page -->
+            <li><a href="sales.html">Sales</a></li> <!-- Link to the sales page -->
+            <li><a href="rentals.html">Rentals</a></li> <!-- Link to the rentals page -->
+            <li><a href="services.html" class="current">Services</a></li> <!-- Link to the services page -->
+            <li><a href="contact.html" class="lastitem">Contact</a></li> <!-- Link to the contact page -->
+        </ul>
+    <section>
+    <table>
+        <caption>Bikes for Sale</caption>
+            <thead>
+                <tr>
+                    <th class='left'>Bikes</th>
+                    <th class='left'>Bike Name</th>
+                    <th class='left'>Bike Specs</th>
+                    <th class='right'>Bike Price</th>    
+                </tr>        
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan='3' class='left'>Racing Bikes</th>
+                    <td>Mongoose Impasse</td>
+                    <td>Full Suspension, 29-Inch Wheels, 21-Speed</td>
+                    <td class='right'>$477.53</td>
+                </tr>
+                <tr>
+                    <td>Shimano Aluminum FSX 1.0</td>
+                    <td>Full Suspension, Disc Brakes, 24-Speed</td>
+                    <td class='right'>$369.95</td>
+                </tr>
+                <tr>
+                    <td>Kent KZ2600</td>
+                    <td>Dual-Suspension, 26-Inch Wheels, 21-Speed</td>
+                    <td class='right'>$333.02</td>
+                </tr>
+            </tbody>
+           <tbody>
+                <tr>
+                    <th rowspan='3' class='left'>Street Bikes</th>
+                    <td>Hiland Road Bike 700C</td>
+                    <td>Racing Bicycle With Shimano 14 Speeds, 54cm Frame</td>
+                    <td class='right'>$259.99</td>
+                </tr>
+                <tr>
+                    <td>Stay Strong PWR Pro XL</td>
+                    <td>Race BMX Bike, Gloss Black</td>
+                    <td class='right'>$437.99</td>
+                </tr>
+                <tr>
+                    <td>Continental Grand Prix 5000</td>
+                    <td>Road Tire, Tubeless Ready</td>
+                    <td class='right'>$89.95</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th rowspan='3' class='left'>Mountain Bikes</th>
+                    <td>Co-Op Cycles DRT 1.1</td>
+                    <td>Available in Ether XS and Pirate Black L, solid construction, good performance on trails</td>
+                    <td class='right'>$599.00</td>
+                </tr>
+                <tr>
+                    <td>Pacific Cycle Mongoose Ardor</td>
+                    <td>27.5-inch wheel, 7 speeds, suitable for varied terrains</td>
+                    <td class='right'>$348.00</td>
+                </tr>
+                <tr>
+                    <td>VELOWAVE Electric Bike</td>
+                    <td>750W BAFANG Motor, 32MPH max speed, 48V 15Ah LG cells battery, 26'' fat tires</td>
+                    <td class='right'>$1,199.00</td>
+                </tr>
+            </tbody>
+    </table>
+    
+    </section>
+    </nav> 
+</body>
+</html>

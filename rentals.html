@@ -1,0 +1,99 @@
+<!DOCTYPE>
+
+<!-- Michael Harris, Southern Illinois University, 02/12/2024, 02/24/2024 --> 
+
+<html lang='en'>                <!-- This line starts the HTML document and specifies the language as English -->
+    <head>                      <!-- This section contains the metadata of the document, such as the title and the character encoding -->
+        <meta charset= utf-8>   <!-- This line sets the character encoding as UTF-8, which supports most languages and symbols -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Style/slicknav.css"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="JS/javascriptmin.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+        
+        <title>Michael's Bicycle Rentals </title> <!-- This line defines the title of the document, which appears in the browser tab -->
+        <meta name="description" content="Michael's Bicycles Rentals"> <meta name="keywords" content="michael, rentals, bicycles">
+        
+        <link rel='stylesheet' href='Style/main.css'> <!-- This line links the CSS file to the HTML file -->
+        
+    </head>
+        
+    <body> <!-- This section contains the content of the document, such as headings, paragraphs, images, etc. -->
+        
+        <header>
+        <h1><strong>Welcome to my bike rental service</strong></h1> <!-- This line creates a level 1 heading with bold text -->
+        </header>
+        
+        <!-- Navigation Menu  -->
+        <nav id="mobile_menu"></nav> 
+        <nav id="nav_menu"> 
+            <ul>
+                <li><a href="index.html">Home</a> </li> 
+                <li><a href="sales.html">Sales</a></li> 
+                <li><a href="rentals.html" class="current">Rentals</a></li>
+                <li><a href="services.html" >Services</a></li> 
+                <li><a href="contact.html" class="lastitem">Contact</a></li>
+            </ul> 
+        </nav>
+        
+        
+                <h2>Our bikes</h2> <!-- This line creates a level 2 heading -->
+        
+                <p>We offer two different street bikes and two different mountain bikes that you can rent from us by the day or week. Here are some brief descriptions of our bikes:</p> <!-- This line creates a paragraph of text -->
+                
+                <main>
+                    
+                    <h3>Street bikes</h3> <!-- This line creates a level 3 heading -->
+                     
+                        <img src='Images/street1.jpg'alt="Street bike 1" height="120"> <!-- This line inserts an image from the Images folder -->
+                    
+                        <p>This is a sleek and fast street bike, ideal for commuting or cruising around the city. It has a lightweight aluminum frame, a 21-speed Shimano drivetrain, and powerful disc brakes.</p> <!-- This line creates a paragraph of text -->
+                    
+                        <img src="Images/street2.jpg" alt="Street bike 2" height="120"> <!-- This line inserts another image from the Images folder -->
+                    
+                        <p>This is a comfortable and versatile street bike, perfect for leisure or fitness riding. It has a steel frame, a 7-speed Shimano shifter, and a suspension fork.</p> <!-- This line creates a paragraph of text -->
+                     
+                </main>
+                
+                <aside>
+
+                <h3>Mountain bikes</h3> <!-- This line creates another level 3 heading -->
+                
+                    
+                        <img src="Images/mountain1.jpg" alt="Mountain bike 1" height="120"> <!-- This line inserts another image from the Images folder -->
+                    
+                        <p>This is a rugged and durable mountain bike, great for tackling any terrain. It has a steel frame, a 24-speed Shimano drivetrain, and hydraulic disc brakes.</p> <!-- This line creates a paragraph of text -->
+                    
+                        <img src="Images/mountain2.jpg" alt="Mountain bike 2" height="120"> <!-- This line inserts another image from the Images folder -->
+                    
+                        <p>This is a smooth and agile mountain bike, excellent for exploring trails or hills. It has an aluminum frame, a 18-speed Shimano shifter, and a lockout suspension fork.</p> <!-- This line creates a paragraph of text -->
+                     
+                </aside>
+                
+            
+
+                <h2>Pricing and terms</h2> <!-- This line creates a level 2 heading -->
+        
+                <p>Our pricing is simple and affordable. You can rent any of our bikes for $10 per day or $50 per week. We also offer extras such as helmets, locks, and lights for $2 each per day or $10 each per week.</p> <!-- This line creates a paragraph of text -->
+                
+                <p>Our terms are easy and fair. You need to provide a valid ID and a credit card to rent a bike. You are responsible for any damage or loss of the bike or the extras. You need to return the bike and the extras in the same condition as you received them. You need to follow the traffic rules and respect the environment when riding the bike.</p> <!-- This line creates another paragraph of text -->
+                
+                
+                <h3>Contact us</h3> <!-- This line creates a level 3 heading -->
+        
+                <img src='Images/Phone.jpg' alt='Phone image' height='90'>
+                <p>If you are interested in renting a bike from us, please contact us using the information below. We are open from 9 am to 6 pm, Monday to Saturday. We look forward to hearing from you!</p> <!-- This line creates another paragraph of text -->
+                
+                <ul> <!-- This tag starts an unordered list text section -->
+                Michael Harris
+                <address>629 University Drive</address>
+                (888) 888-8888
+                </ul> <!-- This tag ends the unordered list text section -->
+
+        
+    </body> <!-- This tag ends the body section of the document -->
+</html> <!-- This tag ends the HTML document -->
