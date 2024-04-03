@@ -1,0 +1,73 @@
+<!DOCTYPE>
+
+<!-- Michael Harris, Southern Illinois University, 01/24/2024, 02/24/2024 -->
+
+<html lang='en'> <!-- This line starts the HTML document and specifies the language as English -->
+    <head> <!-- This section contains the metadata of the document, such as the title and the character encoding -->
+        <meta charset= utf-8> <!-- This line sets the character encoding as UTF-8, which supports most languages and symbols -->
+        <link rel='stylesheet' href="Style/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Style/slicknav.css"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="JS/javascriptmin.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+        
+        <audio autoplay>
+            <source src="Ghostrifter-Official-Purple-Dream(chosic.com).mp3" type="audio/mpeg">
+        </audio>
+
+        <title>Michael's Bicycle's Homepage</title> <!-- This line defines the title of the document, which appears in the browser tab -->
+        <meta name="description" content="Michael's Bicycles Homepage"> <meta name="keywords" content="michael, homepage, bicycles">
+    </head>
+        
+    <body> <!-- This section contains the content of the document, such as headings, paragraphs, images, etc. -->
+          
+            
+            <header><h1><strong>Welcome to my first webpage that is a bicycle shop</strong></h1> <!-- This line creates a level 1 heading with bold text -->
+            <div class="rollover">
+            <img src="Images/Main%20image1.jpg" alt='Fade image'>
+                </div>
+            </header>
+            
+                  <!-- Navigation Menu  -->
+                <nav id="mobile_menu"></nav> 
+                <nav id="nav_menu"> 
+                    <ul>
+                        <li><a href="index.html" class="current">Home</a> </li> 
+                        <li><a href="sales.html">Sales</a></li> 
+                        <li><a href="rentals.html">Rentals</a></li>
+                        <li><a href="services.html" >Services</a></li> 
+                        <li><a href="contact.html" class="lastitem">Contact</a></li>
+                    </ul> 
+                </nav>
+        
+                <div class='curve'><img src="Images/Bike.jpg" alt="Bike for Bike Shop" height="120"></div> <!-- This line inserts an image from the Images folder, with an alternative text and a specified height -->
+            <h2>Here is my Bike Shop</h2> <!-- This line creates a level 2 heading -->
+
+
+            <p>Here is some of the bikes we sell. They are mostly known for being very good mountain bikes or just everyday riding.</p> <!-- This line creates a paragraph of text -->
+
+                <ol> <!-- This tag creates an ordered list to format the text in a listing format -->
+                <li>Mountain Bikes</li>
+                <li>Road Bikes</li>
+                <li>Hybrid Bikes</li>
+                <li>City Bikes</li>
+                </ol> <!-- This tag ends the ordered list text section -->
+            <div class='curve'><img src="Images/Monkey%20on%20bike.jpg" alt="Monkey on bike" height="120"></div> <!-- This line inserts another image from the Images folder, with an alternative text and a specified height -->
+            <p>Our bikes are so easy to ride that even a monkey can ride them!</p> <!-- This line creates another paragraph of text -->
+
+            <h3><em>Contact information</em></h3> <!-- This line creates a level 3 heading with italic text -->
+        
+                <ul> <!-- This tag starts an unordered list text section -->
+                Michael Harris
+                <address>629 University Drive</address>
+                (888) 888-8888
+                </ul> <!-- This tag ends the unordered list text section -->
+
+        
+    </body> <!-- This tag ends the body section of the document -->
+</html> <!-- This tag ends the HTML document -->
